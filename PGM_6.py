@@ -11,6 +11,7 @@ import seaborn as sns
 
 # Load dataset
 df = pd.read_csv("/content/Healthcare-Diabetes.csv")
+#https://www.kaggle.com/datasets/nanditapore/healthcare-diabete
 
 # Features and target
 X = df.drop("Outcome", axis=1)
