@@ -7,6 +7,7 @@ import plotly.express as px
 
 # Load dataset
 df = pd.read_csv("/content/Healthcare-Diabetes.csv")
+#https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes
 
 # Basic information
 print(df.head())
