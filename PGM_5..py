@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load dataset
 df = pd.read_csv("/content/Healthcare-Diabetes.csv")
+#https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes
 
 # Check missing values
 print(df.isnull().sum())
